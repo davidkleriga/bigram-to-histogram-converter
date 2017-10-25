@@ -15,6 +15,7 @@
   Samples below
   parameters including the string `test` will be parsed into histograms
   they must be valid strings and unique
+  
   `node index.js test-1="the quick blue hare"`
 
 
