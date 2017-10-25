@@ -43,6 +43,10 @@
 
 `./compile.sh'`
 
+or
+
+`npm run compile`
+
 `node index test-1="hello world hello" test-2="the quick brown fox and the quick blue hare"`
 
 `node index test="the quick brown fox and the quick blue hare"`
