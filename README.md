@@ -11,19 +11,19 @@
 
 
 ## Classes|
-  ### Bigram { phrase: string; }
-  ### Histogram { phrase: string, quantity: number; }
-  ### HIstogramMap { [phraseKey:string]:Histogram }
-
-
-## Install
-```javascript
-npm install
-```
+  #### Bigram { phrase: string; }
+  #### Histogram { phrase: string, quantity: number; }
+  #### HIstogramMap { [phraseKey:string]:Histogram }
 
 ---
 
+
+## Install
+
+`npm install`
+
 ## Run 
+
 `./compile.sh'`
 
 `node index test-1="hello world hello" test-2="the quick brown fox and the quick blue hare"`
