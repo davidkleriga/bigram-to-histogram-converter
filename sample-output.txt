@@ -1,0 +1,52 @@
+> ./test.sh
+
+running tests
+
+
+  bigram parser
+    ✓ compiles
+{ histogramMap: { 'hello world': { phrase: 'hello world', quantity: 1 } } }
+1 bigram-keys for hello world
+    ✓ can generate a histogram with a single bigram
+{ histogramMap: 
+   { 'hello world': { phrase: 'hello world', quantity: 2 },
+     'world hello': { phrase: 'world hello', quantity: 1 },
+     'hello beautiful': { phrase: 'hello beautiful', quantity: 1 },
+     'beautiful hello': { phrase: 'beautiful hello', quantity: 1 } } }
+4 bigram-keys
+    ✓ can generate multiple histograms from multiple bigrams
+{ histogramMap: 
+   { 'the quick': { phrase: 'the quick', quantity: 2 },
+     'quick brown': { phrase: 'quick brown', quantity: 1 },
+     'brown fox': { phrase: 'brown fox', quantity: 1 },
+     'fox and': { phrase: 'fox and', quantity: 1 },
+     'and the': { phrase: 'and the', quantity: 1 },
+     'quick blue': { phrase: 'quick blue', quantity: 1 },
+     'blue hare': { phrase: 'blue hare', quantity: 1 } } }
+7 bigram-keys for the quick brown fox and the quick blue hare
+    ✓ passes the input provided on the exercise example
+{ histogramMap: 
+   { 'the quick': { phrase: 'the quick', quantity: 3 },
+     'quick brown': { phrase: 'quick brown', quantity: 2 },
+     'brown fox': { phrase: 'brown fox', quantity: 1 },
+     'fox quick': { phrase: 'fox quick', quantity: 1 },
+     'quick blue': { phrase: 'quick blue', quantity: 2 },
+     'blue and': { phrase: 'blue and', quantity: 1 },
+     'and the': { phrase: 'and the', quantity: 2 },
+     'brown and': { phrase: 'brown and', quantity: 1 },
+     'blue hare': { phrase: 'blue hare', quantity: 1 } } }
+9 bigram-keys for the quick brown fox quick blue and the quick brown and the quick blue hare
+    ✓ passes random bigram variations 1
+{ histogramMap: 
+   { 'long bigram': { phrase: 'long bigram', quantity: 1 },
+     'bigram of': { phrase: 'bigram of', quantity: 3 },
+     'of bigram': { phrase: 'of bigram', quantity: 2 },
+     'of long': { phrase: 'of long', quantity: 1 },
+     'long long': { phrase: 'long long', quantity: 1 },
+     'long bigrams': { phrase: 'long bigrams', quantity: 1 } } }
+6 bigram-keys for long bigram of bigram of bigram of long long bigrams
+    ✓ passes random bigram variations 2
+
+
+  6 passing (16ms)
+
