@@ -1,5 +1,4 @@
-
-Uses
+Bigram to Histogram Conver [ DK ]
 
 TypeScript
   great syntax for sudo-coding and fluent, highly-readable code
@@ -18,12 +17,14 @@ Classes|
 
 
 Install
-```npm install```
+```javascript
+npm install
+```
 
 
 Run 
-```./compile.sh'``
-```node index test-1="hello world hello" test-2="the quick brown fox and the quick blue hare"```
-```node index test="the quick brown fox and the quick blue hare"```
-```node index test="long bigram of bigram of bigram of long long bigrams"```
+`./compile.sh'``
+`node index test-1="hello world hello" test-2="the quick brown fox and the quick blue hare"`
+`node index test="the quick brown fox and the quick blue hare"`
+`node index test="long bigram of bigram of bigram of long long bigrams"`
 
