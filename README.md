@@ -2,19 +2,25 @@
 
 ## TypeScript
   great syntax for sudo-coding and fluent, highly-readable code
+  
   Using a Bigram & Histogram Class to hold data to solve challenge
+  
   Static Generators and converters isolate code implementation and describe work
+  
   index.ts and index-tests.ts must be compiled via ./compiled.sh into index.js and index-tests.js
 
 ## Mocha
   simple tests including samples plus a few other random bigram/histogram
+  
   assert by comparing each result manually (hard-coded)
+  
   the `npm test` command will run a handful of preset bigram tests
   
 ## Command Line Run
-  Samples below
+  Samples below:
+  
   parameters including the string `test` will be parsed into histograms
-  they must be valid strings and unique
+  (they must be valid strings and unique)
   
   `node index.js test-1="the quick blue hare"`
 
@@ -43,3 +49,10 @@
 
 `node index test="long bigram of bigram of bigram of long long bigrams"`
 
+## Tests
+
+`npm test`
+
+or
+
+`./test.sh`
