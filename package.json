@@ -1,0 +1,22 @@
+{
+  "name": "vae",
+  "version": "1.0.0",
+  "description": "coding challenge",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "typescript": "^2.5.3"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "keywords": [
+    "coding-challenge",
+    "vae"
+  ],
+  "author": "dk <dkleriga@gmail.com>",
+  "license": "GNU"
+}
